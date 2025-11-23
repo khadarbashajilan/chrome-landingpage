@@ -4,7 +4,7 @@ import chromeLogo from "/chrome-logo.svg"; // Make sure to import your Chrome lo
 
 const Hero = () => {
   return (
-    <main className="font-sans flex flex-col items-center mt-8 min-h-screen gap-1 max-w-4xl mx-auto text-center">
+    <main className="font-sans flex flex-col items-center mt-8 max-h-screen gap-1 max-w-4xl mx-auto mb-0 text-center">
       {/* Chrome Logo */}
       <img src={chromeLogo} alt="Chrome Logo" className="h-15 w-15 mb-2" />
 
