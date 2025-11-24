@@ -1,16 +1,93 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get R# Chrome Landing Page Clone
 
-Currently, two official plugins are available:
+This project is a clone of the Chrome browser landing page, built using React and Vite. The project is still in progress and not yet completed. The current implementation includes the following sections:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Navbar
+- Hero section
+- Updates section
+- Yours section
 
-## React Compiler
+## Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project follows a standard React application structure with the following key directories and files:
 
-## Expanding the ESLint configuration
+```
+src/
+├── animation.js
+├── App.css
+├── App.jsx
+├── components/
+│   ├── Card.jsx
+│   ├── Navbar.jsx
+│   ├── Takeover.jsx
+│   └── Updatescontent.jsx
+├── data.json
+├── main.jsx
+├── pages/
+│   ├── Hero.jsx
+│   ├── Updates_section.jsx
+│   └── Yours_section.jsx
+└── assets/
+    ├── chrome-logo.svg
+    └── take-over/
+        ├── img1.webp
+        ├── img2.webp
+        └── img3.webp
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+### Navbar
+
+The Navbar component displays the Chrome logo and navigation links. It includes the following features:
+
+- Chrome logo
+- Navigation links (Safety, By Google, Extensions)
+
+### Hero Section
+
+The Hero section is a placeholder for the main content of the landing page. It will be further developed to include additional content and functionality.
+
+### Updates Section
+
+The Updates section displays the latest updates from Chrome. It includes the following features:
+
+- Latest updates from Chrome
+- Card component for displaying update information
+
+### Yours Section
+
+The Yours section displays a section with a PaintRoller icon and a Takeover component. It includes the following features:
+
+- PaintRoller icon
+- Takeover component for displaying additional content
+
+
+## Dependencies
+
+The project uses the following dependencies:
+
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+- GSAP (for animations)
+
+## Current Status
+
+The project is still in progress and not yet completed. The following sections are currently implemented:
+
+- Navbar
+- Hero section
+- Updates section
+- Yours section
+
+The following sections are still to be implemented:
+
+- Yours section(animation) 
+- Safe section
+- Fast section
+- By Google section
+- Footer

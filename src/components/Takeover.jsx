@@ -1,4 +1,4 @@
-import data from "/data.json";
+import data from "../data.json";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";

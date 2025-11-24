@@ -2,8 +2,8 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import data from "/data.json";
-import { animation } from "../../animation";
+import data from "../data.json";
+import { animation } from "../animation";
 
 gsap.registerPlugin(ScrollTrigger);
 
