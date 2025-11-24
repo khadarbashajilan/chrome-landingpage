@@ -14,15 +14,15 @@
         "img":"/chrome-logo.svg"
     },
     {
-        "img1": "/src/assets/hero2/gallery1.webp",
-        "img2": "/src/assets/hero2/gallery2.webp",
-        "img3": "/src/assets/hero2/gallery3.webp",
-        "img4": "/src/assets/hero2/gallery4.webp",
-        "img5": "/src/assets/hero2/gallery5.webp"    
+        "img1": "/hero2/gallery1.webp",
+        "img2": "/hero2/gallery2.webp",
+        "img3": "/hero2/gallery3.webp",
+        "img4": "/hero2/gallery4.webp",
+        "img5": "/hero2/gallery5.webp"    
     },
     {
-        "img1": "/src/assets/take-over/img1.webp",
-        "img2": "/src/assets/take-over/img2.webp",
-        "img3": "/src/assets/take-over/img3.webp"
+        "img1": "/take-over/img1.webp",
+        "img2": "/take-over/img2.webp",
+        "img3": "/take-over/img3.webp"
     }
 ]
