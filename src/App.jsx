@@ -1,8 +1,8 @@
 import './App.css'
-import Gallery from './components/Gallery'
-import Hero from './components/Hero'
+import Hero from './pages/Hero'
 import Navbar from './components/Navbar'
-import Updates from './components/Updates'
+import Updates_section from './pages/Updates_section'
+import Yours_section from './pages/Yours_section'
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
-      <Gallery/>
-      <Updates/>
+      <Updates_section/>
+      <Yours_section/>
     </>
   )
 }

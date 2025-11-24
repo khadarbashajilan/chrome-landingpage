@@ -1,29 +1,37 @@
-import pic1 from "../assets/update/pic1.png";
 import Card from "./Card";
-import chromeLogo from "/chrome-logo.svg"; // Make sure to import your Chrome logo
+import data from "/data.json";
 
 const Updatescontent = () => {
   return (
-    <section className="flex gap-x-14 *:h-[620px] *:w-[600px]">
-      <div className=" text-start bg-[#e8f0fe] rounded-2xl overflow-hidden">
-        <Card title={"UPDATES"} heading={"Automatic updates"} info={"There’s a new Chrome release every four weeks, making it easy to have the newest features and a faster, safer web browser."} dlink={"Learn about automatic updates"}/>
+    <section className="flex gap-x-14 *:h-[620px] *:w-[600px] *:text-start *:bg-[#e8f0fe] *:rounded-3xl *:overflow-hidden">
+      <div>
+        <Card
+          title={data[0].title}
+          heading={data[0].heading}
+          info={data[0].info}
+          dlink={data[0].d_link}
+        />
         <img
-          src={pic1}
+          src={data[0].img}
           className="w-full h-auto object-cover"
-          alt="Update illustration"
+          alt="Update"
         />
       </div>
-       <div className=" text-start bg-[#e8f0fe] rounded-2xl overflow-hidden">
-        <Card title={"LATEST"} heading={"New from Chrome"} info={"Chrome regularly updates with tools and features that make it faster and easier to use."} dlink={"Learn what’s new on Chrome"}  />
+      <div>
+        <Card
+          title={data[1].title}
+          heading={data[1].heading}
+          info={data[1].info}
+          dlink={data[1].d_link}
+        />
         <div className="m-10 h-full ms-auto flex pb-60">
           <img
-            src={chromeLogo}
+            src={data[1].img}
             className="w-40 ms-auto"
-            alt="Update illustration"
+            alt="Update"
           />
         </div>
       </div>
-      
     </section>
   );
 };

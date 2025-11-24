@@ -1,0 +1,28 @@
+[
+    {
+        "title": "UPDATES",
+        "heading": "Automatic updates",
+        "info":"There’s a new Chrome release every four weeks, making it easy to have the newest features and a faster, safer web browser.",
+        "d_link":"Learn about automatic updates",
+        "img":"/src/assets/update/pic1.png"
+    },
+    {
+        "title": "LATEST",
+        "heading": "New from Chrome",
+        "info":"Chrome regularly updates with tools and features that make it faster and easier to use.",
+        "d_link":"Learn what’s new on Chrome",
+        "img":"/chrome-logo.svg"
+    },
+    {
+        "img1": "/src/assets/hero2/gallery1.webp",
+        "img2": "/src/assets/hero2/gallery2.webp",
+        "img3": "/src/assets/hero2/gallery3.webp",
+        "img4": "/src/assets/hero2/gallery4.webp",
+        "img5": "/src/assets/hero2/gallery5.webp"    
+    },
+    {
+        "img1": "/src/assets/take-over/img1.webp",
+        "img2": "/src/assets/take-over/img2.webp",
+        "img3": "/src/assets/take-over/img3.webp"
+    }
+]
